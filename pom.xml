@@ -25,11 +25,11 @@
     <distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<url>http://3.83.246.162:8081/repository/studentregwebapp_rel1/</url>
+			<url>http://52.23.210.172:8081/repository/studentregwebapp_rel1/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://3.83.246.162:8081/repository/studentregwebapp_Snapshot/</url>
+			<url>http://52.23.210.172:8081/repository/studentregwebapp_Snapshot/</url>
 		</snapshotRepository>
     </distributionManagement>
 
