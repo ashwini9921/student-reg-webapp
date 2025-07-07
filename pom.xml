@@ -29,7 +29,7 @@
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://54.205.124.212:8081/repository/rushitech-snapshot/</url>
+			<url>http://54.205.124.212:8081/repository/studentregwebapp_Snapshot/</url>
 		</snapshotRepository>
     </distributionManagement>
 
