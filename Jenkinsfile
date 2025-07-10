@@ -4,7 +4,7 @@ node {
 	git branch: 'main', url: 'https://github.com/ashwini9921/student-reg-webapp.git'
 	}
 	stage("step 2 build with maven") {
-	sh $"{mavenhome}/bin/mvn clean package"
+	sh "${mavenhome}/bin/mvn clean package"
 	}
 	stage("step 3 verify") {
 	sh "${mavenhome}/bin/mvn clean verify sonar:sonar"
