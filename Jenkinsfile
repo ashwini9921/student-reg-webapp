@@ -1,7 +1,6 @@
 node {
 	stage("step 1 git clone") {
-	
-	sh git branch: 'main', url: 'https://github.com/ashwini9921/student-reg-webapp.git'
+	git branch: 'main', url: 'https://github.com/ashwini9921/student-reg-webapp.git'
 	}
 	stage("step 2 build with maven") {
 	tool name: 'maven', type: 'maven'/bin/mvn clean package
