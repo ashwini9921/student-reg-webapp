@@ -23,5 +23,10 @@ pipeline {
 				sh 'mvn deploy'
 			}
 		}
+		stage('deploy to tomcat') {
+			steps {
+				sh 'mvn tomcat9:deploy'
+			}
+		}
 	}
 }
