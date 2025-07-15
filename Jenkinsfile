@@ -25,7 +25,7 @@ pipeline {
 		}
 		stage('deploy to tomcat') {
 			steps {
-				sh 'mvn tomcat9:deploy'
+				deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcatcred', path: '', url: 'http://localhost:8090/')], contextPath: null, war: '**/student-reg-webapp*.war'
 			}
 		}
 	}
